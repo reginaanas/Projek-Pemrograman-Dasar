@@ -30,7 +30,7 @@ int main() {
     int pilihan;
     do {
         cout << "=======================================\n";
-        cout << "             ESVITI JUSTIPS            \n";
+        cout << "                K-JUSTIPS              \n";
         cout << "=======================================\n";
         cout << "1. Admin\n";
         cout << "2. Customer\n";
@@ -154,4 +154,5 @@ void customerMenu() {
         }
 
     } while (pilih != 5);
+
 }
