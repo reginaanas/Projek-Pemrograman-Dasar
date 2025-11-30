@@ -7,7 +7,7 @@ using namespace std;
 void Receipt::printReceipt(const Cart &cart, const string &customerName) {
 
     cout << "======================================\n";
-    cout << "             ESVITI JUSTIPS           \n";
+    cout << "                K-JUSTIPS             \n";
     cout << "======================================\n";
     cout << "Customer: " << customerName << "\n\n";
 
@@ -33,7 +33,7 @@ void Receipt::printReceipt(const Cart &cart, const string &customerName) {
     ofstream file("receipt.txt");
     if (file.is_open()) {
         file << "======================================\n";
-        file << "             ESVITI JUSTIPS           \n";
+        file << "               K-JUSTIPS              \n";
         file << "======================================\n";
         file << "Customer: " << customerName << "\n\n";
 
@@ -62,3 +62,4 @@ void Receipt::printReceipt(const Cart &cart, const string &customerName) {
         cout << "Gagal menyimpan receipt.\n";
     }
 }
+
